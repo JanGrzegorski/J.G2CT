@@ -3,9 +3,17 @@ body{
     text-align: center;
     padding: 0%;
     margin: 0%;
+    background-image: url(tlo.png);
+    background-size: cover;
+}
+header{
+    
+    
 }
 main{
-    background-image: url(tlo.png);
+    font-size: 30px;
+    
+    
 }
 .flexbox1{
     display: flex;
@@ -43,32 +51,17 @@ main{
     width: 40%;
     background-color: slategray;
 }
-.kontakt{
-    border: 2px solid;
-    border-radius: 35px;
-    height: 30px;
-    width: 30%;
-    background-color: slategray;
+footer{
+    position: fixed;
+    border: 6px solid black;
+    width:100%;
+    bottom: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
 }
-.E-mail{
-    border: 2px solid;
-    border-radius: 35px;
-    height: 30px;
-    width: 30%;
-    background-color: slategray;
-}
-.Biuroprezesa {
-    border: 2px solid;
-    border-radius: 35px;
-    height: 30px;
-    width: 30%;
-    background-color: slategray;
+.linia{
+    border: 2px solid black;
+    width: 100%;
 }
 
-footer{
-    flex-grow: inherit;
-    text-align: center;
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-}
