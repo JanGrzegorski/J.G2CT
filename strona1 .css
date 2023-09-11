@@ -1,0 +1,74 @@
+body{
+    
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    background-image: url(tlo.png);
+}
+.flexbox1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 5x black;
+
+}
+.box1{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 40%;
+    background-color: slategray;
+}
+.box2{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 40%;
+    background-color: slategray;
+}
+.box3{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 40%;
+    background-color: slategray;
+}
+.box4{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 40%;
+    background-color: slategray;
+}
+.kontakt{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 30%;
+    background-color: slategray;
+}
+.E-mail{
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 30%;
+    background-color: slategray;
+}
+.Biuroprezesa {
+    border: 2px solid;
+    border-radius: 35px;
+    height: 30px;
+    width: 30%;
+    background-color: slategray;
+}
+
+footer{
+    flex-grow: inherit;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
