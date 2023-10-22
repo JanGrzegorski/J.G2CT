@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #004b23;
+}
+header{
+    text-align: center;
+    background-color: #9EF01A;
+}
+.blok{
+    background-color: #9EF01A;
+    width: 65%;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 3px solid #FF0000;
+    display: block;
+}
+main{
+    display: flex;
+}
+.lewa{
+    background-color: #007200;
+    width: 100%;
+    height: 790px;
+    overflow-y: scroll;
+    color: white;
+    padding: 5px;
+    padding-top: -10px;
+}
+.scroll{
+    background-color: #007200;
+    width: 18%;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+p{
+    margin: 0px;
+}
+.zdj{
+    padding: 30px;
+    padding-top: 0px;
+}
+img{
+    border-radius: 10px;
+}
+.srodek{
+    display: block;
+    width: 60%;
+    padding: 0px;
+}
+.lorem{
+    padding: 30px;
+    padding-top: 0px;
+}
+.prawa{
+    background-color: #007200;
+    height: 800px;
+    width: 18%;
+    padding: 5px;
+    padding-top: -10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+.prawa a{
+    text-decoration: none;
+    color: black;
+    padding-right: 105px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+}
+li{
+    background-color: #9EF01A;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+.prawa a:hover{
+    color: white;
+    background-color: #004b23;
+    transition: 0.7s;
+}
+.prawa li:hover{
+    background-color: #004b23;
+}
+h2{
+    padding-left: 30px;
+}
+.srodek a{
+    text-decoration: none;
+    color: white;
+    background-color: #004b23;
+    padding: 5px;
+    border: 2px solid #004b23;
+    float: right;
+}
+.srodek a:hover{
+    color: black;
+    background-color: #9EF01A;
+    border: 2px solid #004b23;
+    float: right;
+    transition: 0.7s;
+}
+.zdj2 img{
+    padding: 16px;
+}
+.srodek2{
+    display: block;
+    width: 60%;
+    padding: 0px;
+    margin-left: 5px;
+    text-align: center;
+}
+.prawa2{
+    background-color: #007200;
+    height: 800px;
+    width: 18%;
+    padding: 5px;
+    padding-top: -10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
+.prawa2 a:hover{
+    color: white;
+    background-color: #004b23;
+    transition: 0.7s;
+}
+.prawa2 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 105px;
+}
+.kontakt ul{
+    padding-left: 80px;
+    list-style: disc;
+}
